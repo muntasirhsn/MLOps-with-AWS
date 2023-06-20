@@ -16,7 +16,7 @@ The image below shows a snapshot of the CI/CD pipeline in Sagemaker
 
 ## Deploying in Production Environment and Realtime Inference
 A REST API was created by using Amazon API Gateway to demonstrate an external-facing, single point of entry for the Sagemaker model endpoint. The API was tested with
-Postman  (an HTTP client) for testing real-time inference. 
+Postman  (an HTTP client) for real-time inference. 
 
 <img src="images/RealtimeInference-Postman.png?raw=true"/>
 
