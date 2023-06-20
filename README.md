@@ -10,13 +10,12 @@ The preprocess.py and evaluation.py are files for preprocessing the training dat
 the lambda function to get the latest approved model package and iam_helper.py is the helper function for the lambda_getapproved_model.py for the required execution role. 
 
 ## CI/CD with Sagemaker Pipeline
-The image below shows a snapshot of the CI/CD pipeline in Sagemaker
+The image below shows a snapshot of the CI/CD pipeline in Sagemaker Studio.
 
 <img src="images/Sageaker Pipeline3.png?raw=true"/>
 
 ## Deploying in Production Environment and Realtime Inference
-A REST API was created by using Amazon API Gateway to demonstrate an external-facing, single point of entry for the Sagemaker model endpoint. The API was tested with
-Postman  (an HTTP client) for real-time inference. 
+A REST API was created by using Amazon API Gateway to demonstrate an external-facing, single point of entry for the Sagemaker model endpoint. A lambda function was employed to establish the communication  between the API gateway and the model endpoint. The API was tested with Postman (an HTTP client) for real-time inference. 
 
 <img src="images/RealtimeInference-Postman.png?raw=true"/>
 
