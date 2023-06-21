@@ -4,6 +4,8 @@ Automate end-to-end ML workflow for all the steps including data extraction, pre
 Amazon SageMaker Pipelines is a purpose-built, easy-to-use continuous integration and continuous delivery (CI/CD) service for machine learning (ML). In this example, Sagemaker pipeline is used 
 to preprocess Abalone data, train and evaluate an Xgboost model, record baselines for data quality and model quality and deploy the model in production.  
 
+<img src="images/MLOps2_Muntasir Hossain.png?raw=true"/>
+
 ## Execution
 The pipeline.py file is the main execution file. It can be used as is in the Sagemaker notebook instance or with a little modification in Sagemaker Studio. 
 The preprocess.py and evaluation.py are files for preprocessing the training data and performing the model evaluation. The lambda_getapproved_model.py is 
